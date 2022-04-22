@@ -36,8 +36,11 @@ body {
 .navbar li{
     list-style: none;
     text-decoration: none;
+    cursor: pointer;
 }
-
+.navbar-itens:hover{
+    opacity: 0.6;
+}
 .content-wrapper {
     display: flex;
     flex-direction: row-reverse;
@@ -123,7 +126,10 @@ body {
     font-size: 20px;
     color: rgb(87, 81, 81);
 }
-
+.btn-assistir:hover{
+    background-color: #cde1f8;
+    border: 1px solid rgb(63, 77, 205);
+}
 .login {
     height: 40px;
     padding: 10px;
@@ -136,10 +142,16 @@ body {
     border-radius: 4px;
     margin-top: 0;
 }
+.login:hover{
+    background: rgb(203, 203, 255);
+}
 .logout {
     color: #0095f6;
     margin-top: 1rem;
     font-weight: 400;
+}
+.logout:hover{
+   color: #9d3f7c;
 }
 .not-account {
     color: rgb(87, 81, 81);
@@ -148,6 +160,10 @@ body {
 }
 .link-blue {
     color: #0095f6;
+    cursor: pointer;
+}
+.link-blue:hover{
+    color: #9d3f7c;
 }
 .get-the-app {
     display: flex;
