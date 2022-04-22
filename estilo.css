@@ -44,7 +44,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 85%;
-    height: 90vh;
+    height: 85vh;
     border: 1px solid lightgray;
     border-radius: 5px;
     background: url(img/violet.jpg);
@@ -71,6 +71,8 @@ body {
     margin-left: 220px;
     margin-top: -250px;
     width: 30%;
+    height: 150px;
+    object-fit: contain;
 }
 .title, .title span{
     font-family: 'Cinzel', serif;
@@ -80,11 +82,11 @@ body {
 }
 .title {
     margin-top: 0;
-    font-size: 80px;
+    font-size: 90px;
     line-height: 1.2em;
 }
 .title span{
-    font-size: 80px;
+    font-size: 90px;
 }
 .group {
     display: flex;
